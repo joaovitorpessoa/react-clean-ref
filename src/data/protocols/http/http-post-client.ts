@@ -1,5 +1,6 @@
 type HttpPostClientParams = {
   url: string
+  body?: object
 }
 
 interface HttpPostClient {
